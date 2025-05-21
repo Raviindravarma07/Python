@@ -288,3 +288,38 @@ if userinput1==2:
             elif userinput24 == 3 and userinput25 == 3 and userinput26 == 3:
                 print("You have Selected 16GB Ram and 256GB Storage and Intel i8 core processor")
             print("Dell laptop Purchased")
+
+if userinput1==3:
+    print("You have selected Food")
+    print("Select\n1 for Pizza\n2 for Burger")
+    userinput27=int(input("Enter the number: "))
+    if userinput27 <= 0 or userinput27 >2:
+            print("Enter a valid input") 
+    if userinput27==1:
+            print("You have Selected Pizzas")
+            print("Select\n1 for Veg Pizza\n2 for Non-veg pizza\n3 for Baby Corn Pizza")
+            userinput28=int(input("Enter the number: "))
+            if userinput28 <= 0 or userinput28 >2:
+                 print("Enter a valid input")
+            elif userinput28 == 1:
+                print("You have Selected Veg Pizza")
+            elif userinput28 == 2:
+                print("You have Selected Non-veg Pizza")
+            elif userinput28 == 3:
+                print("You have Selected Baby Corn Pizza")
+            print("Pizza Purchased")
+
+    elif userinput27==2:
+        print("You have Selected Burgers")
+        print("Select\n1 for Veg Burger\n2 for Non-Veg Burger\n3 for Special Burger(Non veg)")
+        userinput28=int(input("Enter the number: "))
+        if userinput28 <= 0 or userinput28 >2:
+            print("Enter a valid input")
+        if userinput28 == 1:
+            print("You have Selected Veg Burger")
+        elif userinput28 == 2:
+            print("You have Selected Non Burger")
+        elif userinput28 == 3:
+            print("You have Selected Special Burger(Non-veg)")
+        print("Burger Purchased")
+print("Thank For Visiting!")
