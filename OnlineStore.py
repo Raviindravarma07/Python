@@ -82,17 +82,17 @@ if userinput1==2:
     print("You have selected Electronics")
     print("Select\n1 for Mobiles\n2 for Laptops")
     userinput9=int(input("Enter the number: "))
-if userinput1 <= 0 or userinput1 >3:
-    print("Enter a valid input")
+    if userinput1 <= 0 or userinput1 >3:
+        print("Enter a valid input")
 
-if userinput9==1:
+    if userinput9==1:
         print("You have Selected Mobiles")
         print("Select\n1 for Samsung\n2 for Oneplus\n3 for Nokia")
         userinput10=int(input("Enter the number: "))
         if userinput10 <= 0 or userinput10 >3:
              print("Enter a valid input")
         if userinput10==1:
-            print("You have Selected Samsung Mobiles")
+            print("You have Selected Samsung")
             print("Select\n1 for 4GB Ram\n2 for 8GB Ram\n3 for 16GB Ram")
             userinput11=int(input("Enter the number: "))
             if userinput11 <= 0 or userinput11 >3:
@@ -102,24 +102,24 @@ if userinput9==1:
             if userinput12 <= 0 or userinput12 >3:
                  print("Enter a valid input")
             elif userinput11 == 1 and userinput12 == 1:
-                print("You have Selected 4GB Ram and 64GB Storage Samsung Mobile ")
+                print("You have Selected 4GB Ram and 64GB Storage")
             elif userinput11 == 1 and userinput12 == 2:
-                print("You have Selected 4GB Ram and 128GB Storage Samsung Mobile ")
+                print("You have Selected 4GB Ram and 128GB Storage")
             elif userinput11 == 1 and userinput12 == 3:
-                print("You have Selected 4GB Ram and 256GB Storage Samsung Mobile ")
+                print("You have Selected 4GB Ram and 256GB Storage")
             elif userinput11 == 2 and userinput12 == 1:
-                print("You have Selected 6GB Ram and 64GB Storage Samsung Mobile ")
+                print("You have Selected 6GB Ram and 64GB Storage")
             elif userinput11 == 2 and userinput12 == 2:
-                print("You have Selected 8GB Ram and 128GB Storage Samsung Mobile ")
+                print("You have Selected 8GB Ram and 128GB Storage")
             elif userinput11 == 2 and userinput12 == 3:
-                print("You have Selected 16GB Ram and 256GB Storage Samsung Mobile ")
+                print("You have Selected 16GB Ram and 256GB Storage")
             elif userinput11 == 3 and userinput12 == 1:
-                print("You have Selected 16GB Ram and 64GB Storage Samsung Mobile ")
+                print("You have Selected 16GB Ram and 64GB Storage")
             elif userinput11 == 3 and userinput12 == 2:
-                print("You have Selected 16GB Ram and 256GB Storage Samsung Mobile ")
+                print("You have Selected 16GB Ram and 256GB Storage")
             elif userinput11 == 3 and userinput12 == 3:
-                print("You have Selected 16GB Ram and 256GB Storage Samsung Mobile ")
-            print("Samsung Mobile Purchased")
+                print("You have Selected 16GB Ram and 256GB Storage")
+            print("You have Samsung Mobile")
         
         if userinput10==2:
             print("You have Selected Oneplus Mobiles")
@@ -132,23 +132,23 @@ if userinput9==1:
             if userinput14 <= 0 or userinput14 >3:
                  print("Enter a valid input")
             elif userinput13 == 1 and userinput14 == 1:
-                print("You have Selected 4GB Ram and 64GB Storage  ")
+                print("You have Selected 4GB Ram and 64GB Storage")
             elif userinput13 == 1 and userinput14 == 2:
-                print("You have Selected 4GB Ram and 128GB Storage  ")
+                print("You have Selected 4GB Ram and 128GB Storage")
             elif userinput13 == 1 and userinput14 == 3:
-                print("You have Selected 4GB Ram and 256GB Storage ")
+                print("You have Selected 4GB Ram and 256GB Storage")
             elif userinput13 == 2 and userinput14 == 1:
-                print("You have Selected 6GB Ram and 64GB Storage  ")
+                print("You have Selected 6GB Ram and 64GB Storage")
             elif userinput13 == 2 and userinput14 == 2:
-                print("You have Selected 8GB Ram and 128GB Storage  ")
+                print("You have Selected 8GB Ram and 128GB Storage")
             elif userinput13 == 2 and userinput14 == 3:
-                print("You have Selected 16GB Ram and 256GB Storage  ")
+                print("You have Selected 16GB Ram and 256GB Storage")
             elif userinput13 == 3 and userinput14 == 1:
-                print("You have Selected 16GB Ram and 64GB Storage ")
+                print("You have Selected 16GB Ram and 64GB Storage")
             elif userinput13 == 3 and userinput14 == 2:
-                print("You have Selected 16GB Ram and 256GB Storage ")
+                print("You have Selected 16GB Ram and 256GB Storage")
             elif userinput13 == 3 and userinput14 == 3:
-                print("You have Selected 16GB Ram and 256GB Storage  ")
+                print("You have Selected 16GB Ram and 256GB Storage")
             print("Oneplus Mobile Purchased")
         
         if userinput10==3:
@@ -159,127 +159,132 @@ if userinput9==1:
                  print("Enter a valid input")
             print("Select\n1 for 64GB Storage\n2 for 128GB Storage\n3 for 256GB Storage")
             userinput16=int(input("Enter the number: "))
-            if userinput16 <= 0 or userinput16 >2:
+            if userinput16 <= 0 or userinput16 >3:
                  print("Enter a valid input")
             elif userinput15 == 1 and userinput16 == 1:
-                print("You have Selected 4GB Ram and 64GB Storage  ")
+                print("You have Selected 4GB Ram and 64GB Storage ")
             elif userinput15 == 1 and userinput16 == 2:
-                print("You have Selected 4GB Ram and 128GB Storage  ")
+                print("You have Selected 4GB Ram and 128GB Storage ")
             elif userinput15 == 1 and userinput16 == 3:
-                print("You have Selected 4GB Ram and 256GB Storage ")
+                print("You have Selected 4GB Ram and 256GB Storage")
             elif userinput15 == 2 and userinput16 == 1:
-                print("You have Selected 6GB Ram and 64GB Storage  ")
+                print("You have Selected 6GB Ram and 64GB Storage ")
             elif userinput15 == 2 and userinput16 == 2:
-                print("You have Selected 8GB Ram and 128GB Storage  ")
+                print("You have Selected 8GB Ram and 128GB Storage ")
             elif userinput15 == 2 and userinput16 == 3:
-                print("You have Selected 16GB Ram and 256GB Storage  ")
-            elif userinput15 == 3 and userinput16 == 1:
-                print("You have Selected 16GB Ram and 64GB Storage ")
-            elif userinput15 == 3 and userinput16 == 2:
                 print("You have Selected 16GB Ram and 256GB Storage ")
+            elif userinput15 == 3 and userinput16 == 1:
+                print("You have Selected 16GB Ram and 64GB Storage")
+            elif userinput15 == 3 and userinput16 == 2:
+                print("You have Selected 16GB Ram and 256GB Storage")
             elif userinput15 == 3 and userinput16 == 3:
-                print("You have Selected 16GB Ram and 256GB Storage  ")
+                print("You have Selected 16GB Ram and 256GB Storage")
             print("Nokia Mobile Purchased")
 
-if userinput9==2:
+    if userinput9==2:
         print("You have Selected Laptops")
-        print("Select\n1 for Samsung\n2 for MacBook\n3 for Dell")
+        print("Select\n1 for Samsung\n2 for Dell\n3 for MacBook")
         userinput17=int(input("Enter the number: "))
         if userinput17 <= 0 or userinput17 >3:
              print("Enter a valid input")
         if userinput17==1:
             print("You have Selected Samsung Laptops")
             print("Select\n1 for 4GB Ram\n2 for 8GB Ram\n3 for 16GB Ram")
-            userinput11=int(input("Enter the number: "))
-            if userinput11 <= 0 or userinput11 >3:
+            userinput18=int(input("Enter the number: "))
+            if userinput18 <= 0 or userinput18 >3:
                  print("Enter a valid input")
             print("Select\n1 for 64GB Storage\n2 for 128GB Storage\n3 for 256GB Storage")
-            userinput12=int(input("Enter the number: "))
-            if userinput12 <= 0 or userinput12 >3:
+            userinput19=int(input("Enter the number: "))
+            if userinput19 <= 0 or userinput19 >3:
                  print("Enter a valid input")
-            userinput11=int(input("Enter the number: "))
-            if userinput11 <= 0 or userinput11 >3:
+            print("Select the Processor\n1 for Intel i3 Core\n2 for Intel i5 Core\n3 for Intel i8 Core")
+            userinput20=int(input("Enter the number: "))
+            if userinput20 <= 0 or userinput20 >3:
                  print("Enter a valid input")
-            print("Select\n1 for Intel i3\n2 for Intel i6\n3 for Intel")
-            userinput12=int(input("Enter the number: "))
-            if userinput12 <= 0 or userinput12 >3:
-                 print("Enter a valid input")
-            elif userinput11 == 1 and userinput12 == 1:
-                print("You have Selected 4GB Ram and 64GB Storage Samsung Mobile ")
-            elif userinput11 == 1 and userinput12 == 2:
-                print("You have Selected 4GB Ram and 128GB Storage Samsung Mobile ")
-            elif userinput11 == 1 and userinput12 == 3:
-                print("You have Selected 4GB Ram and 256GB Storage Samsung Mobile ")
-            elif userinput11 == 2 and userinput12 == 1:
-                print("You have Selected 6GB Ram and 64GB Storage Samsung Mobile ")
-            elif userinput11 == 2 and userinput12 == 2:
-                print("You have Selected 8GB Ram and 128GB Storage Samsung Mobile ")
-            elif userinput11 == 2 and userinput12 == 3:
-                print("You have Selected 16GB Ram and 256GB Storage Samsung Mobile ")
-            elif userinput11 == 3 and userinput12 == 1:
-                print("You have Selected 16GB Ram and 64GB Storage Samsung Mobile ")
-            elif userinput11 == 3 and userinput12 == 2:
-                print("You have Selected 16GB Ram and 256GB Storage Samsung Mobile ")
-            elif userinput11 == 3 and userinput12 == 3:
-                print("You have Selected 16GB Ram and 256GB Storage Samsung Mobile ")
-            print("Samsung Mobile Purchased")
+            elif userinput18 == 1 and userinput19 == 1 and userinput20 == 1:
+                print("You have Selected 4GB Ram and 64GB Storage and Intel i3 Core Processor ")
+            elif userinput18 == 1 and userinput19 == 2 and userinput20 == 1:
+                print("You have Selected 4GB Ram and 128GB Storage and Intel i3 Core Processor ")
+            elif userinput18 == 1 and userinput19 == 3 and userinput20 == 1:
+                print("You have Selected 4GB Ram and 256GB Storage and Intel i3 Core Processor ")
+            elif userinput18 == 2 and userinput19 == 1 and userinput20 == 2:
+                print("You have Selected 6GB Ram and 64GB Storage and Intel i5 Core Processor ")
+            elif userinput11 == 2 and userinput19 == 2 and userinput20 == 2:
+                print("You have Selected 8GB Ram and 128GB Storage and Intel i5 Core Processor ")
+            elif userinput18 == 2 and userinput19 == 3 and userinput20 == 2:
+                print("You have Selected 16GB Ram and 256GB Storage and Intel i5 Core Processor ")
+            elif userinput18 == 3 and userinput19 == 1 and userinput20 == 3:
+                print("You have Selected 16GB Ram and 64GB Storage and Intel i8 Core Processor ")
+            elif userinput18 == 3 and userinput19 == 2 and userinput20 == 3:
+                print("You have Selected 16GB Ram and 256GB Storage and Intel i8 Core Processor ")
+            elif userinput18 == 3 and userinput19 == 3 and userinput20 == 3:
+                print("You have Selected 16GB Ram and 256GB Storage and Intel i8 core processor")
+            print("Samsung laptop Purchased")
         
-        if userinput10==2:
-            print("You have Selected Oneplus Mobiles")
+        if userinput17==2:
+            print("You have Selected Dell Laptops")
             print("Select\n1 for 4GB Ram\n2 for 8GB Ram\n3 for 16GB Ram")
-            userinput13=int(input("Enter the number: "))
-            if userinput13 <= 0 or userinput13 >3:
+            userinput21=int(input("Enter the number: "))
+            if userinput21 <= 0 or userinput21 >3:
                  print("Enter a valid input")
             print("Select\n1 for 64GB Storage\n2 for 128GB Storage\n3 for 256GB Storage")
-            userinput14=int(input("Enter the number: "))
-            if userinput14 <= 0 or userinput14 >3:
+            userinput22=int(input("Enter the number: "))
+            if userinput22 <= 0 or userinput22 >3:
                  print("Enter a valid input")
-            elif userinput13 == 1 and userinput14 == 1:
-                print("You have Selected 4GB Ram and 64GB Storage  ")
-            elif userinput13 == 1 and userinput14 == 2:
-                print("You have Selected 4GB Ram and 128GB Storage  ")
-            elif userinput13 == 1 and userinput14 == 3:
-                print("You have Selected 4GB Ram and 256GB Storage ")
-            elif userinput13 == 2 and userinput14 == 1:
-                print("You have Selected 6GB Ram and 64GB Storage  ")
-            elif userinput13 == 2 and userinput14 == 2:
-                print("You have Selected 8GB Ram and 128GB Storage  ")
-            elif userinput13 == 2 and userinput14 == 3:
-                print("You have Selected 16GB Ram and 256GB Storage  ")
-            elif userinput13 == 3 and userinput14 == 1:
-                print("You have Selected 16GB Ram and 64GB Storage ")
-            elif userinput13 == 3 and userinput14 == 2:
-                print("You have Selected 16GB Ram and 256GB Storage ")
-            elif userinput13 == 3 and userinput14 == 3:
-                print("You have Selected 16GB Ram and 256GB Storage  ")
-            print("Oneplus Mobile Purchased")
+            print("Select the Processor\n1 for Intel i3 Core\n2 for Intel i5 Core\n3 for Intel i8 Core")
+            userinput23=int(input("Enter the number: "))
+            if userinput23 <= 0 or userinput23 >3:
+                 print("Enter a valid input")
+            elif userinput21 == 1 and userinput22 == 1 and userinput23 == 1:
+                print("You have Selected 4GB Ram and 64GB Storage and Intel i3 Core Processor ")
+            elif userinput21 == 1 and userinput22 == 2 and userinput23 == 1:
+                print("You have Selected 4GB Ram and 128GB Storage and Intel i3 Core Processor ")
+            elif userinput21 == 1 and userinput22 == 3 and userinput23 == 1:
+                print("You have Selected 4GB Ram and 256GB Storage and Intel i3 Core Processor ")
+            elif userinput21 == 2 and userinput22 == 1 and userinput23 == 2:
+                print("You have Selected 6GB Ram and 64GB Storage and Intel i5 Core Processor ")
+            elif userinput21 == 2 and userinput22 == 2 and userinput23 == 2:
+                print("You have Selected 8GB Ram and 128GB Storage and Intel i5 Core Processor ")
+            elif userinput21 == 2 and userinput22 == 3 and userinput23 == 2:
+                print("You have Selected 16GB Ram and 256GB Storage and Intel i5 Core Processor ")
+            elif userinput21 == 3 and userinput22 == 1 and userinput23 == 3:
+                print("You have Selected 16GB Ram and 64GB Storage and Intel i8 Core Processor ")
+            elif userinput21 == 3 and userinput22 == 2 and userinput23 == 3:
+                print("You have Selected 16GB Ram and 256GB Storage and Intel i8 Core Processor ")
+            elif userinput21 == 3 and userinput22 == 3 and userinput23 == 3:
+                print("You have Selected 16GB Ram and 256GB Storage and Intel i8 core processor")
+            print("Dell laptop Purchased")
         
-        if userinput10==3:
-            print("You have Selected Nokia Mobiles")
+        if userinput17==3:
+            print("You have Selected MacBook  Laptops")
             print("Select\n1 for 4GB Ram\n2 for 8GB Ram\n3 for 16GB Ram")
-            userinput15=int(input("Enter the number: "))
-            if userinput15 <= 0 or userinput15 >3:
+            userinput24=int(input("Enter the number: "))
+            if userinput24 <= 0 or userinput24 >3:
                  print("Enter a valid input")
             print("Select\n1 for 64GB Storage\n2 for 128GB Storage\n3 for 256GB Storage")
-            userinput16=int(input("Enter the number: "))
-            if userinput16 <= 0 or userinput16 >2:
+            userinput25=int(input("Enter the number: "))
+            if userinput25 <= 0 or userinput25 >3:
                  print("Enter a valid input")
-            elif userinput15 == 1 and userinput16 == 1:
-                print("You have Selected 4GB Ram and 64GB Storage  ")
-            elif userinput15 == 1 and userinput16 == 2:
-                print("You have Selected 4GB Ram and 128GB Storage  ")
-            elif userinput15 == 1 and userinput16 == 3:
-                print("You have Selected 4GB Ram and 256GB Storage ")
-            elif userinput15 == 2 and userinput16 == 1:
-                print("You have Selected 6GB Ram and 64GB Storage  ")
-            elif userinput15 == 2 and userinput16 == 2:
-                print("You have Selected 8GB Ram and 128GB Storage  ")
-            elif userinput15 == 2 and userinput16 == 3:
-                print("You have Selected 16GB Ram and 256GB Storage  ")
-            elif userinput15 == 3 and userinput16 == 1:
-                print("You have Selected 16GB Ram and 64GB Storage ")
-            elif userinput15 == 3 and userinput16 == 2:
-                print("You have Selected 16GB Ram and 256GB Storage ")
-            elif userinput15 == 3 and userinput16 == 3:
-                print("You have Selected 16GB Ram and 256GB Storage  ")
-            print("Nokia Mobile Purchased")
+            print("Select the Processor\n1 for Intel i3 Core\n2 for Intel i5 Core\n3 for Intel i8 Core")
+            userinput26=int(input("Enter the number: "))
+            if userinput26 <= 0 or userinput26 >3:
+                 print("Enter a valid input")
+            elif userinput24 == 1 and userinput25 == 1 and userinput26 == 1:
+                print("You have Selected 4GB Ram and 64GB Storage and Intel i3 Core Processor ")
+            elif userinput24 == 1 and userinput25 == 2 and userinput26 == 1:
+                print("You have Selected 4GB Ram and 128GB Storage and Intel i3 Core Processor ")
+            elif userinput24 == 1 and userinput25 == 3 and userinput26 == 1:
+                print("You have Selected 4GB Ram and 256GB Storage and Intel i3 Core Processor ")
+            elif userinput24 == 2 and userinput25 == 1 and userinput26 == 2:
+                print("You have Selected 6GB Ram and 64GB Storage and Intel i5 Core Processor ")
+            elif userinput24 == 2 and userinput25 == 2 and userinput26 == 2:
+                print("You have Selected 8GB Ram and 128GB Storage and Intel i5 Core Processor ")
+            elif userinput24 == 2 and userinput25 == 3 and userinput26 == 2:
+                print("You have Selected 16GB Ram and 256GB Storage and Intel i5 Core Processor ")
+            elif userinput24 == 3 and userinput25 == 1 and userinput26 == 3:
+                print("You have Selected 16GB Ram and 64GB Storage and Intel i8 Core Processor ")
+            elif userinput24 == 3 and userinput25 == 2 and userinput26 == 3:
+                print("You have Selected 16GB Ram and 256GB Storage and Intel i8 Core Processor ")
+            elif userinput24 == 3 and userinput25 == 3 and userinput26 == 3:
+                print("You have Selected 16GB Ram and 256GB Storage and Intel i8 core processor")
+            print("Dell laptop Purchased")
