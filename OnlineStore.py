@@ -47,7 +47,7 @@ while True:
         
         if userinput2==2:
             print("You have Selected Women Fashion")
-            print("Select\n1 for Tops\n2 for Geans")
+            print("Select\n1 for Tops\n2 for Jeans")
             userinput6=int(input("Enter the number: "))
             if userinput6 <= 0 or userinput6 >2:
                 print("Enter a valid input")
